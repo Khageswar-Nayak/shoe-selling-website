@@ -47,16 +47,9 @@ const ShoeItems = (props) => {
   };
   // console.log(cartCtx);
 
-  // ... existing code
-
   if (large === 0 && medium === 0 && small === 0) {
-    // console.log(props.id);
-    setTimeout(() => {
-      props.onRemoveShoe(props.id);
-    }, 0);
+    props.onRemoveShoe(props.id);
   }
-
-  // ... rest of the code
 
   return (
     <li className={classes.shoe}>

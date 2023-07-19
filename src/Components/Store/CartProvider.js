@@ -30,31 +30,6 @@ const CartProvider = (props) => {
 
     setTotalAmount(totalAmount + item.price);
   };
-  // console.log(items);
-  // const removeItemFromCartHandler = (id) => {
-  //   const existingItemIndex = items.findIndex((item) => item.id === id);
-  //   const existingItem = items[existingItemIndex];
-  //   console.log(existingItem);
-  //   let updatedItems;
-  //   if (existingItem.quantity === 1) {
-  //     // If the quantity is 1, remove the item from the cart
-  //     updatedItems = items.filter((item) => item.id !== id);
-  //   } else {
-  //     // If the quantity is greater than 1, decrease the quantity by one
-  //     const updatedItem = {
-  //       ...existingItem,
-  //       quantity: existingItem.quantity - 1,
-  //       price: existingItem.price - existingItem.price / existingItem.quantity,
-  //     };
-  //     updatedItems = [...items];
-  //     updatedItems[existingItemIndex] = updatedItem;
-  //   }
-  //   const updatedTotalAmount = Math.abs(
-  //     totalAmount - existingItem.price / existingItem.quantity
-  //   );
-  //   setItems(updatedItems);
-  //   setTotalAmount(updatedTotalAmount);
-  // };
 
   const clearCartHandler = () => {
     setItems([]);

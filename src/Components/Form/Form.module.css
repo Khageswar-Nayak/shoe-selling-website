@@ -5,7 +5,7 @@
   margin: auto;
   margin-top: -21rem;
   position: relative;
-  background-color: #18374e4a;
+  background-color: #2571c136;
   color: #fdffff;
   border-radius: 14px;
   padding: 1rem;
@@ -16,7 +16,7 @@
 .form h2 {
   font-size: 2rem;
   margin-top: 1px;
-  color: whitesmoke;
+  color: #fdffff;
 }
 
 .form h3 {

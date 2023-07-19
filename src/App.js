@@ -22,7 +22,8 @@ const App = () => {
   };
   const removeShoeHandler = (id) => {
     // console.log(id);
-    setShoeDetails(shoeDetails.filter((shoe) => shoe.id !== id));
+    const remove = shoeDetails.filter((shoe) => shoe.id !== id);
+    setShoeDetails(remove);
   };
   // console.log(shoeDetails);
   return (
